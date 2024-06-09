@@ -1,10 +1,8 @@
 def removeElement(nums, val):
-    #
+    
     k = 0    #initializing K
 
-    # Iterate through the array
-    for i in range(len(nums)):     #iterating through the array
-
+    for i in range(len(nums)):     #iterating through the array using the for loop
 
         if nums[i] != val:   # If the current element is not equal to val
 
@@ -15,7 +13,7 @@ def removeElement(nums, val):
 
     return k    # Return the number of elements that are not equal to val
 
-nums = [3, 2, 2, 3]
-val = 3
+nums = [3, 2, 4, 3]
+val = 4
 result = removeElement(nums, val)
-print(result)  # Output should be 2
+print(result)  
