@@ -14,6 +14,6 @@ def removeElement(nums, val):
     return k    # Return the number of elements that are not equal to val
 
 nums = [3, 2, 4, 3]
-val = 4
+val = 2
 result = removeElement(nums, val)
 print(result)  
